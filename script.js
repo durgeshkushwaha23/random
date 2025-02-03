@@ -25,6 +25,11 @@ function imges() {
   img.src = arr[randomIndex];
   
   document.body.appendChild(img);
+  setInterval(()=>{
+     img.src = ""
+  },4000)
+
+  
 }
 
 
